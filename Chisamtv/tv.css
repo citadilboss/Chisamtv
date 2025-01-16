@@ -1,0 +1,143 @@
+:root{
+    --main-color:#deab5f;
+    --primary-color: #312e2e;
+}
+
+/* utility setting */
+button{
+    padding: 10px 30px;
+    background: var(--main-color);
+    cursor: pointer;
+    border: none;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #100e0f;
+    color: #fff;
+}
+
+nav{
+    display: flex;
+    color: #fff;
+    padding-top: 15px;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    
+}
+
+li{
+    display: inline;
+    list-style: none;
+}
+li a{
+    color: #fff;
+    margin: 40px;
+    padding: 10px;
+
+}
+li a:hover{
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--main-color);
+}
+
+.header{
+    background: url(pexels-natri-129207-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  text-align: center;
+     position: relative;
+   
+
+}
+.main-heading{
+    position: absolute;
+    top: 15rem;
+    font-size: 3rem;
+    word-spacing: 10px;
+    margin-bottom: -40px;
+}
+.primary-heading{
+    position: absolute;
+    bottom: 12rem;
+    font-size: 3rem;
+    word-spacing: 10px;
+    margin-bottom: -40px;
+}
+.main-btn{
+    position: absolute;
+    bottom: 8rem;
+    padding: 10px 30px;
+    background: transparent;
+    background: var(--main-color);
+    transform: translateY(60px);
+}
+#our-story{
+    height:30vw;
+    margin-top: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.img{
+    width: 600px;
+    height: 600px;
+    background: url(COFFEE-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+}
+.title-style{
+    display: flex;
+    align-items: center;
+}
+.title{
+    font-size: 4rem;
+
+}
+.line{
+    width: 100px;
+    height: 2px;
+    background: #fff;
+    transform: translateX(-120);
+}
+.section-content p{
+    max-width: 500px;
+    color:#fff;
+    line-height: 30px;
+    margin: 20px 0;
+    font-size: 2rem;
+    
+}
+
+
+.content-section{
+max-width: 500px;
+font-size: 2rem;
+}
+
+
+
+.coffee-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10rem;
+}
+.img-container{
+    display: flex;
+    justify-self: end;
+}
